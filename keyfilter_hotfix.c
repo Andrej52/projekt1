@@ -126,7 +126,7 @@ int main(int argc, char*argv[])
     char enableChars[MAX_LENGTH] = {};
     char loweredString[MAX_LENGTH+1] = {};
     char loweredArgv[MAX_LENGTH+1] = {};
-    char foundcity[MAX_LENGTH]= {};
+    char foundcity[MAX_LENGTH+1]= {};
     int cnt = 0;
 
     to_upper(argv[1],loweredArgv);     
